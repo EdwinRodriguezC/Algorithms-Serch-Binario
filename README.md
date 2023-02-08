@@ -7,15 +7,6 @@ entonces se pregunta si el valor de dicha posición es menor o mayor a la clave 
 entonces se coloca en medio del primer bloque de elementos del arreglo e ignora los elementos del segundo bloque de 
 elementos del arreglo e ignora los elementos del bloque anterior. Estos pasos se repiten hasta que se encuentre el elemento buscado. 
 
-# Algorithms-Search-Lineal
-Búsqueda lineal o secuencial 
-
-- Es el algoritmo de búsqueda más simple, pero el menos eficiente, no requiere que los datos o elementos estén ordenados.
-Consiste en recorrer los registros o arreglos de manera secuencial, es decir, recorriendo elemento por elemento comparando 
-los datos con la clave de búsqueda hasta que encuentre el dato solicitado o determine que dicho dato no se encuentra. 
-El inconveniente con este algoritmo es que si el arreglo posee unas dimensiones muy grandes si el elemento a buscar está muy 
-lejos tardaría más tiempo en encontrarlo.
-
 Lo que hace este algoritmo sea mucho más eficiente que el algoritmo de búsqueda secuencial se debo a que en vez de 
 pasar uno por uno los elementos de todo el arreglo, lo que hace es ignorar los bloques de elementos donde 
 indudablemente se sabe debido a que está ordenado que no puede encontrarse allí. 
